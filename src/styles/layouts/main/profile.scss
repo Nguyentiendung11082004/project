@@ -1,0 +1,466 @@
+.profile {
+    width: 100%;
+    background-color: #fff;
+    height: 195px;
+}
+
+.profile__info {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.profile__info__personal {
+    margin: 20px 30px;
+    display: flex;
+
+    &__text {
+        margin: 25px 0px 0px 30px;
+
+        &__name {
+            display: flex;
+
+            p {
+                margin-right: 10px;
+                font-size: 24px;
+                font-weight: 600;
+                color: #0A101A;
+            }
+
+            span {
+                width: 63px;
+                height: 20px;
+                font-weight: 400;
+                border-radius: 18px;
+                border: 1px solid #000000;
+                padding: 4px 8px 2px 8px;
+                margin-top: 2px;
+
+            }
+        }
+
+        &__email {
+            display: flex;
+            margin: 10px 0px;
+
+            p {
+                font-weight: 400;
+                font-size: 14px;
+                color: #475467;
+                margin-right: 10px;
+            }
+
+            span {
+                font-weight: 400;
+                font-size: 14px;
+                color: #475467;
+            }
+        }
+
+        &__location {
+            display: flex;
+
+            p {
+                font-weight: 400;
+                font-size: 14px;
+                color: #475467;
+                margin-right: 10px;
+            }
+
+            span {
+                font-weight: 400;
+                font-size: 14px;
+                color: #475467;
+            }
+        }
+    }
+}
+
+.profile__info__update {
+    margin: 90px 40px 0px 0px;
+}
+
+
+.profile__info__more {
+    background-color: #fff;
+    width: 1160px;
+    height: auto;
+    margin: 24px 0px 12px 24px;
+
+    &__vitae {
+        p {
+            font-size: 16px;
+            font-weight: 600;
+            color: #0A101A;
+            padding: 24px 24px 12px 24px;
+        }
+
+        span {
+            padding: 24px 24px 12px 24px;
+            color: #D0D5DD;
+        }
+
+        a {
+            color: #1890FF;
+        }
+    }
+
+    &__education {
+        padding: 24px 24px 12px 24px;
+
+        .heading {
+            font-size: 16px;
+            font-weight: 600;
+            color: #0A101A;
+
+        }
+        ul {
+            li {
+               
+                font-weight: 500;
+                font-size: 14px;
+                display: flex;
+                margin: 10px 0px;
+                p {
+                    color: #D0D5DD;
+                    margin-right: 10px;
+                }
+
+                span {
+                    color: #0A101A;
+
+                }
+            }
+        }
+
+    }
+
+    &__skills {
+        padding: 0px 24px 12px 24px;
+
+        .heading {
+            font-size: 16px;
+            font-weight: 600;
+            color: #0A101A;
+        }
+
+        .skills-list {
+            display: flex;
+
+            .skills-item {
+                display: flex;
+                margin: 20px 10px 0px 0px;
+                border: 1px solid #98A2B3;
+                border-radius: 8px;
+                padding: 5px;
+
+                p {
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+
+    &__workingtime {
+        padding: 12px 24px 12px 24px;
+
+        .heading {
+            font-size: 16px;
+            font-weight: 600;
+            color: #0A101A;
+        }
+
+        ul {
+            li {
+                color: #344054;
+                font-weight: 500;
+                font-size: 14px;
+                display: flex;
+                margin: 10px 0px;
+
+                p {
+                    color: #D0D5DD;
+                    margin-right: 10px;
+                }
+
+                span {
+                    color: #0A101A;
+
+                }
+            }
+        }
+    }
+
+    &__language {
+        padding: 12px 24px 12px 24px;
+
+        .heading {
+            font-size: 16px;
+            font-weight: 600;
+            color: #0A101A;
+        }
+
+        .korea {
+            padding: 10px 0px;
+            color: #101828;
+            font-weight: 500;
+            font-size: 14px;
+        }
+
+        .english {
+            padding: 10px 0px;
+            color: #101828;
+            font-weight: 500;
+            font-size: 14px;
+        }
+
+        .level {
+            display: flex;
+            margin: 10px 0px;
+
+            p {
+                margin-right: 10px;
+                color: #344054;
+            }
+        }
+
+        .des {
+            p {
+                color: #344054;
+
+            }
+        }
+    }
+
+    &__bank {
+        padding: 12px 24px 12px 24px;
+
+        .heading {
+            font-size: 16px;
+            font-weight: 600;
+            color: #0A101A;
+        }
+
+        ul {
+            li {
+                color: #344054;
+                font-weight: 500;
+                font-size: 14px;
+                display: flex;
+                margin: 10px 0px;
+
+                p {
+                    color: #D0D5DD;
+                    margin-right: 10px;
+                }
+
+                span {
+                    color: #0A101A;
+
+                }
+            }
+        }
+    }
+}
+
+.heading {
+    font-weight: 600;
+    font-size: 16px;
+    color: #0A101A;
+    margin: 5px 0px;
+}
+
+.profile__edit__name {
+    display: flex;
+    justify-content: space-between;
+   
+    &__firstname {
+        width: 230px;
+        margin: 10px 0px;
+
+        input {
+            width: 100%;
+            height: 28px;
+            border: 1px solid #98A2B3;
+            border-radius: 6px;
+            margin-top: 8px;
+        }
+    }
+
+    &__country {
+        width: 230px;
+        margin: 10px 0px;
+
+        input {
+            width: 100%;
+            height: 28px;
+            border: 1px solid #98A2B3;
+            border-radius: 6px;
+            margin-top: 8px;
+        }
+    }
+
+    &__lastname {
+        width: 230px;
+        margin: 10px 0px;
+
+        input {
+            width: 100%;
+            height: 28px;
+            border: 1px solid #98A2B3;
+            border-radius: 6px;
+            margin-top: 8px;
+        }
+    }
+
+    &__email {
+        width: 230px;
+        margin: 10px 0px;
+
+        input {
+            width: 100%;
+            height: 28px;
+            border: 1px solid #98A2B3;
+            border-radius: 6px;
+            margin-top: 8px;
+        }
+    }
+
+}
+
+.profile__edit__position {
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        &__role {
+            width: 230px; 
+            select {
+                width: 100%;
+                height: 28px;
+                border: 1px solid #98A2B3;
+                border-radius: 6px;
+                margin-top: 4px;
+            }
+        }
+        &__level {
+            width: 230px; 
+            select {
+                width: 100%;
+                height: 28px;
+                border: 1px solid #98A2B3;
+                border-radius: 6px;
+                margin-top: 4px;
+            }
+        }
+    }
+   
+}
+.profile__edit__viate{
+    margin: 10px 0px;
+}
+.profile__edit__education{
+    ul{
+        li{
+            display: flex;
+            p{
+                color: #98A2B3;
+                margin-right: 20px;
+            }
+        }
+    }
+    button{
+        margin-top: 10px;
+        border: none;
+        color: #1890FF;
+    }
+}
+.profile__edit__skills{
+    .content{
+        display: flex;
+        justify-content: space-between;
+    }
+    button{
+        border: none;
+        color: #1890FF;
+    }
+}
+.profile__edit__languages{
+    .level{
+        display: flex;
+        p{
+            color: #98A2B3;
+            margin-right: 10px;
+        }
+    }
+    button{
+        border: none;
+        color: #1890FF;
+        margin: 10px 0px;
+
+    }
+}
+.profile__edit__working{
+    display: flex;
+    &__heading{
+        select{
+            width: 90px;
+            height: 20px;
+            margin-top: 10px;
+
+        }
+        margin-right: 60px;
+        div{
+            display: flex;
+            margin-top: 10px;
+            p{
+                margin: 0px 10px;
+                padding: 2px 5px 2px 2px;
+                border: 1px solid black;
+                border-radius: 2px;
+            }
+           
+        }
+    }
+}
+
+.profile__add__education{ 
+    div{
+        margin-top: 20px;
+    }
+    input {
+        width: 100%;
+        height: 28px;
+        border: 1px solid #98A2B3;
+        border-radius: 6px;
+        // margin-top: 8px;
+    }
+    form{
+        div{
+            margin: 10p 0px;
+          
+        }
+    }
+   
+}
+
+.profile__addskills__list{
+    display: flex;
+    .skills{
+        width: 70%;
+        select{
+            width: 90%;
+            height: 28px;
+            border: 1px solid #98A2B3;
+            border-radius: 6px;
+        }
+    }
+    .grade{
+        width: 30%;
+        select{
+            width: 80%;
+            height: 28px;
+            border: 1px solid #98A2B3;
+            border-radius: 6px;
+        }
+    }
+}

@@ -1,0 +1,24 @@
+
+
+$font-poppins: "Poppins", sans-serif;
+*{
+   font-family: $font-poppins;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    background-color: 
+    #F0F2F5;
+}
+@import './layouts/Login/login.scss';
+@import './layouts/Login/forgotPassword.scss';
+@import './layouts/Signup/signup.scss';
+@import './layouts/Signup/signupnext.scss';
+@import './components/header.scss';
+@import './components/sidebar.scss';
+
+@import './layouts/main/profile.scss';
+@import './layouts/main/income.scss';
+@import './layouts/main/project.scss';
+@import './layouts/main/timesheet.scss'

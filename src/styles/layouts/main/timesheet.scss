@@ -1,0 +1,62 @@
+.content {
+    width: 100%;
+}
+
+.checkin {
+    background-color: #fff;
+    height: 132px;
+    width: 100%;
+
+    &__heading {
+        font-weight: 600;
+        font-size: 16px;
+        padding: 20px 0px 0px 40px;
+    }
+    button{
+        width: 158px;
+        height: 52px;
+        background-color: #1890FF;
+        border-radius: 100px;
+        border: none;
+        color: #FFFFFF;
+        font-size: 16px;
+        margin: 20px 0px 0px 40px;
+        box-shadow: 0px 0px 4px 0px #00000040;
+
+
+    }
+}
+.checkout {
+    background-color: #fff;
+    height: 132px;
+    width: 100%;
+
+    &__heading {
+        font-weight: 600;
+        font-size: 16px;
+        padding: 20px 0px 0px 40px;
+    }
+    button{
+        width: 158px;
+        height: 52px;
+        background-color: red;
+        border-radius: 100px;
+        border: none;
+        color: #FFFFFF;
+        font-size: 16px;
+        margin: 20px 0px 0px 40px;
+        box-shadow: 0px 0px 4px 0px #00000040;
+
+
+    }
+}
+
+.table__time{
+    margin: 24px 0px 12px 24px;
+    .title{
+        margin: 18px 0px;
+        font-weight: 600;
+        font-size: 16;
+        color: #0A101A;
+    }
+}

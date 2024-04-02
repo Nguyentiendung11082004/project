@@ -1,0 +1,73 @@
+.content{
+    width: 100%;
+}
+.totalincome{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.totalincome__left {
+    background-color: #fff;
+    height: 112px;
+    width: 50%;
+    .heading {
+        font-weight: 400;
+        font-size: 14px;
+        color: #475467;
+        padding: 30px 0px 5px 40px;
+    }
+
+    &__content {
+        padding: 0px 40px; 
+        display: flex;
+        border-right: 1px solid black;
+        
+        p {
+            font-weight: 600;
+            font-size: 32px;
+            color:
+                #1890FF; 
+        }
+        span{
+            font-weight: 400;
+            font-size: 18px;
+            color:
+                #1890FF; 
+                margin: 12px 0px 0px 8px;
+        }
+    }
+}
+
+.totalincome__right {
+    background-color: #fff;
+    height: 112px;
+    width: 50%;
+    .heading {
+        font-weight: 400;
+        font-size: 14px;
+        color: #475467;
+        padding: 30px 0px 5px 40px;
+    }
+
+    &__content {
+        padding: 0px 40px; 
+        display: flex;
+        p {
+            font-weight: 600;
+            font-size: 32px;
+           
+        }
+        span{
+            font-weight: 400;
+            font-size: 18px;
+           
+                margin: 12px 0px 0px 8px;
+        }
+    }
+}
+.historyincome{
+    margin: 24px 0px 12px 24px;
+    .heading{
+        margin: 18px 0px;
+    }
+}

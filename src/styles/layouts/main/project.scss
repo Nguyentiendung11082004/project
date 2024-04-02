@@ -1,0 +1,97 @@
+.content {
+    width: 100%;
+}
+
+.title__project {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.title__project__left {
+    background-color: #fff;
+    width: 50%;
+    height: 148px;
+
+    .heading {
+        margin: 20px 0px 5px 40px;
+    }
+
+    .title {
+        color: #475467;
+    }
+
+    .content {
+        color: #0A101A;
+    }
+
+    &__content {
+        margin: 10px 0px 5px 40px;
+        width: 100%;
+        width: 100%;
+
+        .time {
+            width: 427px;
+            display: flex;
+            margin: 20px 0px;
+
+        }
+
+        .start-date {
+            display: flex;
+            margin-right: 50px;
+        }
+
+        .end-date {
+            display: flex;
+        }
+
+        .time-country {
+            display: flex;
+            .timezone{
+                margin-right: 50px;
+            }
+        }
+    }
+}
+
+.title__project__right {
+    background-color: #fff;
+    width: 50%;
+    height: 148px;
+
+    .title {
+        color: #475467;
+    }
+
+    .content {
+        color: #0A101A;
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    &__time {
+        display: flex;
+        margin: 60px 0px 5px 40px;
+
+        .start-time {
+            margin-right: 50px;
+
+        }
+    }
+
+    &__position {
+        display: flex;
+        margin: 20px 0px 5px 40px;
+
+        .role {
+            margin-right: 50px;
+        }
+    }
+}
+.historyproject{
+    margin: 24px 0px 12px 24px;
+    .heading{
+        margin: 18px 0px;
+    }
+}

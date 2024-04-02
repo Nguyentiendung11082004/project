@@ -1,0 +1,48 @@
+$font-poppins: "Poppins", sans-serif;
+a{
+    text-decoration: none;
+}
+ .sidebar{
+    font-family: $font-poppins;
+    width: 210px;
+    height: 573px;
+    margin-top: 48px;
+    box-shadow: 0px 0px 16px 0px #00000033;
+    background-color: #fff;
+     z-index: 1;
+     position: fixed;
+    &__menu-list{
+         padding-top: 20px;
+         width: 210px;
+        a{
+            display: flex;
+            align-items: center;
+            width: 94%;
+            height: 44px;    
+            padding: 8px 0px 8px 12px;
+            img{
+                width: 20px;
+                height: 20px;
+                margin-right: 10px;
+            }
+            li{
+                font-weight: 400;
+                font-size: 14px;
+                color: #344054;
+            }
+        }
+        a:hover{
+            
+            background-color: #EEF7FF;
+        }
+        a:hover li{
+            color: #1890FF;
+        }
+    }
+   
+ }
+ .outlet__content{
+    width: 100%;
+    margin-top: 48px;
+    margin-left: 210px;
+ }
