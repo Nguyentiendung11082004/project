@@ -48,7 +48,6 @@ const TimeSheet = () => {
         <Table dataSource={data}>
           <Column title="First Name" dataIndex="firstName" key="firstName" />
           <Column title="Last Name" dataIndex="lastName" key="lastName" />
-
           <Column title="Age" dataIndex="age" key="age" />
           <Column title="Address" dataIndex="address" key="address" />
           <Column

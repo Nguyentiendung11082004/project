@@ -1,5 +1,6 @@
 $font-poppins: "Poppins", sans-serif;
-.header{
+
+.header {
     background-color: #1890FF;
     display: flex;
     height: 48px;
@@ -9,10 +10,13 @@ $font-poppins: "Poppins", sans-serif;
     top: 0;
     left: 0;
     right: 0;
-    &__logo{
+    z-index: 1;
+
+    &__logo {
         margin: 0px 30px;
     }
-    &__avatar{
+
+    &__avatar {
         margin: 0px 30px;
     }
 }

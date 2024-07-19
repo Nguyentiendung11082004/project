@@ -14,7 +14,7 @@ const onFinishFailed: FormProps<FieldType>["onFinishFailed"] = (errorInfo) => {
   console.log("Failed:", errorInfo);
 };
 
-const login = () => {
+const Login = () => {
   return (
     <div className="login">
       <div className="login__logo">
@@ -37,40 +37,41 @@ const login = () => {
           className="login__form__form"
           name="basic"
           style={{ width: 380 }}
-          initialValues={{ remember: true }}  
+          initialValues={{ remember: true }}
           onFinish={onFinish}
           onFinishFailed={onFinishFailed}
           autoComplete="off"
         >
-           
+
           <Form.Item<FieldType>
             label="Email"
             className="email"
-             style={{marginLeft:'0px'}}
+            style={{ marginLeft: '0px' }}
             name="username"
             rules={[{ required: true, message: "Please input your username!" }]}
           >
-            <Input   placeholder='example@gmail.com' />
+            <Input placeholder='example@gmail.com' />
           </Form.Item>
-
-          <Form.Item
-          <FieldType>
+          <Form.Item<FieldType>
             label="Password"
             className="password"
+            style={{ marginLeft: '0px' }}
             name="password"
             rules={[{ required: true, message: "Please input your password!" }]}
           >
-            <Input.Password  style={{ width: 389, height: 42 }} /> 
+            <Input placeholder='Password' />
           </Form.Item>
-           
-          <Form.Item 
-          className="forgotpass"
-          wrapperCol={{ offset: 12, span: 16 }}
-          
+
+
+
+          <Form.Item
+            className="forgotpass"
+            wrapperCol={{ offset: 12, span: 16 }}
+
           >
             <Link to='fogotPassword'>Forgot password?</Link>
           </Form.Item>
-          
+
           <Form.Item wrapperCol={{ offset: 4, span: 16 }}>
             <Button className="btn-login" type="primary" htmlType="submit">
               Login
@@ -82,4 +83,4 @@ const login = () => {
   );
 };
 
-export default login;
+export default Login;
